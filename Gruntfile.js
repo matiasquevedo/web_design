@@ -204,7 +204,7 @@ module.exports = function(grunt) {
       jade_compile: {
         options: {
           enabled: true,
-          message: 'Jade Compiled!',
+          message: 'Jade Compilado // Jade Compiled!',
           title: "web_desing",
           success: true,
           duration: 1
