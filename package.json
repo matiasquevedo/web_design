@@ -37,10 +37,9 @@
     "node-archiver": "^0.3.0",
     "node-sass": "^4.5.2",
     "phantomjs-prebuilt": "^2.1.14",
-    "bootstrap" : "4.0.0-beta" 
+    "bootstrap": "4.0.0-beta"
   },
   "devDependencies": {
     "browser-sync-webpack-plugin": "^1.2.0"
-
   }
 }
