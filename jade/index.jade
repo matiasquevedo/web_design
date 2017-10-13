@@ -1,11 +1,13 @@
 
 doctype html
 html(lang="en")
-head
-	include _head.jade
-body
-	include index/index.html
-	include index/seccion1_lucas_.html
-	include index/seccion_juan.html
-footer
-	include footer/footer.html
+	head
+		include _head.jade
+	body
+		include index/index.html
+		main
+			include index/seccion1_lucas_.html
+			include index/seccion_juan.html
+		include footer/footer.html
+
+	
