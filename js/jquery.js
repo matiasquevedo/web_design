@@ -35,6 +35,10 @@
 	} else {
 		factory( global );
 	}
+	// Open
+$('.gallery-expand').galleryExpand('open');
+// Close
+$('.gallery-expand').galleryExpand('close');
 
 // Pass this if window is not defined yet
 } )( typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
