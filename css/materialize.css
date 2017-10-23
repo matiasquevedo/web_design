@@ -2918,7 +2918,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #096c89ff; /*CAMBIO DE COLOR #ee6e73 A #096c89ff*/
 }
 
 .page-footer .footer-copyright {
@@ -4246,7 +4246,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #096c89ff;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4259,6 +4259,7 @@ nav.nav-extended {
 nav.nav-extended .nav-wrapper {
   min-height: 56px;
   height: auto;
+ 
 }
 
 nav.nav-extended .nav-content {
