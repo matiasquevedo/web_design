@@ -30,8 +30,52 @@ Sticky Footer
 barra fija
 
 */
+.seccion{
+ border: 3px dashed black;
+}
+
+.seccion-materialize{
+  background-color: lightpink;
+  background-image: url("../res/img/fondo.png");
+}
+
+.icon-redondo img{  /* para que el icono sea circular */
+background: white;
+width: 100px;
+height: 100px;
+right: 30px;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+box-shadow: 0 0 8px rgba(0, 0, 0, .8); /*Sombrado */
+-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+ -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+ -webkit-transform: rotate(-15deg); /*rotacion de imagen icon*/
+-moz-transform: rotate(-20deg);
+
+}
+
+.boton a {  /*Boton de "Documentacion" tenga otra forma*/
+  width: 230px;
+  height: 60px;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 5px 10px; 
+  border-radius: 135%;
+}
+
+.columna .tabla{ /* Columnas-Tablas */
+ width:250px; 
+ text-align:top;
+ height: 250px;
+}
+.columna .tabla .icon-redondo{
+
+height: 150px;
+width: 150px;
 
 
+}
 .barra-color{
   width: 100% !important;
   margin: 0 auto;
@@ -9443,3 +9487,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
 }
+
