@@ -41,27 +41,45 @@ barra fija
 
 .icon-redondo img{  /* para que el icono sea circular */
 background: white;
-width: 100px;
-height: 100px;
+
+width: 150px;
+height: 150px;
 right: 30px;
+float: left; /*Pegarlo del lado izquierdo */
+margin-left: 250px; /* Mover de lugar el icon de Materialize*/
+
+
 -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
 border-radius: 50%;
 box-shadow: 0 0 8px rgba(0, 0, 0, .8); /*Sombrado */
 -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
- -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
- -webkit-transform: rotate(-15deg); /*rotacion de imagen icon*/
--moz-transform: rotate(-20deg);
+-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-o-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-ms-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-webkit-transform: rotate(-15deg); /*rotacion de imagen icon*/
+-moz-transform: rotate(-20deg);/*para mozila*/
+-o-transform: rotate(-20deg);/*para Opera*/
+-ms-transform: rotate(-20deg);/*para Microsoft*/
+
 
 }
 
 .boton a {  /*Boton de "Documentacion" tenga otra forma*/
   width: 230px;
   height: 60px;
+  
+
   -moz-border-radius: 10%;
+  -o-border-radius: 10%;
+  -ms-border-radius: 10%;
   -webkit-border-radius: 30%;
   -moz-border-radius: 5px 10px; 
+  -o-border-radius: 5px 10px; 
+  -ms-border-radius: 5px 10px; 
+
   border-radius: 135%;
+  text-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 .columna .tabla{ /* Columnas-Tablas */
