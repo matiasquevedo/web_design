@@ -35,21 +35,33 @@ barra fija
 }
 
 .seccion-materialize{
-  background-color: lightpink;
+  background-color: white;
   background-image: url("../res/img/fondo.png");
+  background-size: 100%;
+}
+ 
+
+
+
+/*Efecto 4 de circulo */
+.icon-redondo .boton1
+{
+  box-shadow: 0 0 0 10px rgba(255,255,255,1);  
+  width: 150px;
+  height: 150px;
+  right: 30px;
+  float: left; /*Pegarlo del lado izquierdo */
+  margin-left: 150px;
+  background-color: white;
+
 }
 
-.icon-redondo img{  /* para que el icono sea circular */
-background: white;
+.icon-redondo .boton1 {
+  -webkit-transition: box-shadow 1.2s;
+  -moz-transition: box-shadow 1.2s;
+  transition: box-shadow 1.2s;
 
-width: 150px;
-height: 150px;
-right: 30px;
-float: left; /*Pegarlo del lado izquierdo */
-margin-left: 250px; /* Mover de lugar el icon de Materialize*/
-
-
--moz-border-radius: 50%;
+  -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
 border-radius: 50%;
 box-shadow: 0 0 8px rgba(0, 0, 0, .8); /*Sombrado */
@@ -60,27 +72,53 @@ box-shadow: 0 0 8px rgba(0, 0, 0, .8); /*Sombrado */
 -webkit-transform: rotate(-15deg); /*rotacion de imagen icon*/
 -moz-transform: rotate(-20deg);/*para mozila*/
 -o-transform: rotate(-20deg);/*para Opera*/
--ms-transform: rotate(-20deg);/*para Microsoft*/
-
-
+-ms-transform: rotate(-20deg)
 }
 
-.boton a {  /*Boton de "Documentacion" tenga otra forma*/
+.icon-redondo .boton1:before {
+  line-height: 92px;
+}
+
+.icon-redondo .boton1:after {
+  top: -4px;
+  left: -4px;
+  padding: 0;
+  z-index: 10;
+  border: 4px dashed #fff;
+}
+
+.icon-redondo .boton1:hover {
+  box-shadow: 0 0 0 0 rgba(255,255,255,0);
+  color: #fff;
+}
+
+
+
+/*Boton de "Documentacion" tenga otra forma*/
+.boton a {  
   width: 230px;
-  height: 60px;
+  height: 50px;
   
+text-align: center;
+display: block;
+float: left;
+font: normal 15px Tahoma; /* Change 13px as desired */
+line-height: 24px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+padding-left: 55px; /* Width of left menu image */
 
-  -moz-border-radius: 10%;
-  -o-border-radius: 10%;
-  -ms-border-radius: 10%;
-  -webkit-border-radius: 30%;
-  -moz-border-radius: 5px 10px; 
-  -o-border-radius: 5px 10px; 
-  -ms-border-radius: 5px 10px; 
 
-  border-radius: 135%;
-  text-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
+
+/*ICON DENTRO DEL BOTON "DOCUMENTACION" */
+.office { 
+  width: 24px;
+  height: 24px;
+ 
+
+  background-image: url("../res/img/office-material.svg");
+ padding-top: 20px;
+}
+
 
 .columna .tabla{ /* Columnas-Tablas */
  width:250px; 
