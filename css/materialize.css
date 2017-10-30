@@ -4,6 +4,8 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
+
+
 /*//////////////
 
 Sticky Footer
@@ -30,6 +32,13 @@ barra fija
 */
 
 
+.barra-color{
+  width: 100% !important;
+  margin: 0 auto;
+  border: 5px dashed black;
+  background-color: pink !important;
+  height: 400px !important;
+}
 
 
 .materialize-red {
