@@ -1851,7 +1851,8 @@ if (Vel) {
 
   $(document).ready(function () {
     $('.dropdown-button').dropdown();
-  });
+      $('.carousel').carousel();
+    });
 })(jQuery);
 ;(function ($, Vel) {
   'use strict';
