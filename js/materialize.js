@@ -1591,10 +1591,13 @@ if (Vel) {
       }
     });
   };
-
+////////souar
   $(document).ready(function () {
+    $('.dropdown-button').dropdown('open');
+    $('.carousel').carousel();
     $('.collapsible').collapsible();
     $('.button-collapse').sideNav();
+  
   });
 })(jQuery);;(function ($) {
 
@@ -1849,10 +1852,6 @@ if (Vel) {
     });
   }; // End dropdown plugin
 
-  $(document).ready(function () {
-    $('.dropdown-button').dropdown();
-      $('.carousel').carousel();
-    });
 })(jQuery);
 ;(function ($, Vel) {
   'use strict';
