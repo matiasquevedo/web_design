@@ -36,13 +36,11 @@
     "jasmine-jquery": "^2.1.1",
     "jquery": "^3.0.0 || ^2.1.4",
     "node-archiver": "^0.3.0",
-    "node-sass": "^4.5.3",
-    "phantomjs-prebuilt": "^2.1.14",
     "node-sass": "^4.5.2",
-    "phantomjs-prebuilt": "^2.1.14",
-    "bootstrap": "4.0.0-beta"
+    "phantomjs-prebuilt": "^2.1.14"
   },
   "devDependencies": {
-    "browser-sync-webpack-plugin": "^1.2.0"
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "grunt-server-monitor": "^3.0.0"
   }
 }
