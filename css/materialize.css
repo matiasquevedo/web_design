@@ -9444,3 +9444,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
 }
+
+/*/////////////////////////////////////////////////////////*/
+/*//////////////////CSS GUILLERMO//////////////////////////*/
+.g_container{
+  margin: 5 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+/*//////////////END CSS GUILLERMO//////////////////////////*/
+/*/////////////////////////////////////////////////////////*/
+
