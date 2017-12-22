@@ -5990,6 +5990,7 @@ button.btn-floating {
   -webkit-font-smoothing: antialiased;
 }
 
+
 select:focus {
   outline: 1px solid #c9f3ef;
 }
@@ -9451,6 +9452,76 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin: 5 auto;
   max-width: 1280px;
   width: 95%;
+}
+.g_caption {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+}
+.g_pick {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+/*======HERO IMAGE=====*/
+.g_img1{
+  background-image: url("/res/img/verano1.jpg");
+}
+.g_img2{
+  background-image: url("/res/img/verano2.jpg");
+}
+.g_desk{
+  background-image: url("/res/avatar/desk.png");
+}
+.g_w{
+  width: 500px;
+  height: 500px;
+}
+.g_hero_image {
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.g_hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*=====COMPARE IMAGE=======*/
+* {box-sizing: border-box;}
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
 }
 
 /*//////////////END CSS GUILLERMO//////////////////////////*/
